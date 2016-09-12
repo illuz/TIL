@@ -21,8 +21,12 @@
 
 ### Python
 
-- [Unicode in Python](./python/unicode-in-python.md)
+- [Unicode in Pythoon](./python/unicode-in-python.md)
 
+
+### Database
+
+- [Shell for Sqlite3](./database/shell-for-sqlite3.md)
 
 
 ---
