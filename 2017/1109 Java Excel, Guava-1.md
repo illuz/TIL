@@ -1,4 +1,4 @@
-# TIL(2017-11-09) Java Excel, Guava-1
+# Java Excel, Guava-1
 
 ## 用 Apache POI 写 Excel
 
