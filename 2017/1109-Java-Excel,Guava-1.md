@@ -159,6 +159,11 @@ Optional 提高可读性，我个人比较倾向于用 JDK 的，毕竟原生。
 
 和 JDK 的 `Collections.unmodifiableXXX` 差不多，不过他们说 Guava 的 ImmutableXXX 会更轻便、安全、高效。
 
+unmodifiedXXX  和 ImmutableXXX 的区别主要是：
+
+- unmodifiedXXX 是在外部传过来的 collection 包了一个 wrapper，如果外部还有这个 collection 的 refer，是可以改这个数据的，也就是 `readonly view`
+- ImmutableXXX 则是对这个 collection 复制了一份到自己内部，这样外部就没有机会去改内部的东西了，也就是 `readonly copy`，当然，它只保证了 collection 不能动（增删 ），而 collection 里的东西，还是能 get 出来改的（refer 不能变）。
+
 #### Collection Utilities
 
 Collection 工具是日常中用得比较多的工具，很实用。
