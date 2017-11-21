@@ -27,6 +27,7 @@
 - Guava learning [1109](./2017/1109-Java-Excel,Guava-1.md) [1110](./2017/1110 Guava-2, Git branch, Docker network, DNS Wild Card.md)
 - Apache Poi 创建 Excel [1109](./2017/1109-Java-Excel,Guava-1.md)
 - Gradle 学习 [1113](./2017/1113-Gradle,Go.md)
+- Java Log System [1121](./2017/1121-DDD,Java-Log-System.md)
 
 ### Golang
 
@@ -39,6 +40,10 @@
 ### Docker
 
 - Docker 网络 [1110](./2017/1110 Guava-2, Git branch, Docker network, DNS Wild Card.md)
+
+### Design Pattern
+
+- DDD [1121](./2017/1121-DDD,Java-Log-System.md)
 
 ### Other
 
