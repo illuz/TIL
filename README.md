@@ -31,7 +31,16 @@
 
 ### Golang
 
+- Go 环境配置与版本管理 [1207](./2017/1207-Go,Ruby,Erlang-Environment.md)
 - Go 输入输出 [1113](./2017/1113-Gradle,Go.md)
+
+### Ruby
+
+- Ruby 环境配置与版本管理 [1207](./2017/1207-Go,Ruby,Erlang-Environment.md)
+
+### Erlang
+
+- Erlang 环境配置 [1207](./2017/1207-Go,Ruby,Erlang-Environment.md)
 
 ### Shell
 
