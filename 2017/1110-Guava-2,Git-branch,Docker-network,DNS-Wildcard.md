@@ -67,7 +67,7 @@ ListenableFuture 是对 Future 的扩展，JDK 8 的 CompletableFuture 就是参
 
 - **Joiner**，string join 工具类，可`skipNulls()`，返回 immutable
 - **Splitter**，string split 工具类，除了按分隔号，还能按 regex 和长度来切字串
-  - `",a,,b,".split(",")` 返回时会跳过后面的空串，得到 `"", "a", "", "b", ""`，而 Splitter 可以自由控制，比如 `trimResults`,  `omitEmptyStrings`
+  - `",a,,b,,".split(",")` 返回时会跳过后面的空串，得到 `"", "a", "", "b"`，而 Splitter 可以自由控制，比如 `trimResults`,  `omitEmptyStrings`
 - **CaseFormat**：字串风格工具类，可以转风格，如和驼峰、锯齿之类的
 
 ```
