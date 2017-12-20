@@ -46,6 +46,10 @@
 
 - 删除没用的 Git 分支 [1110](./2017/1110-Guava-2,Git-branch,Docker-network,DNS-Wildcard.md)
 
+### JavaScript
+
+- [JS: 30 seconds of code Reading](./2017/1220-JS-30-seconds-of-code-Reading.md)
+
 ### Docker
 
 - Docker 网络 [1110](./2017/1110-Guava-2,Git-branch,Docker-network,DNS-Wildcard.md)
